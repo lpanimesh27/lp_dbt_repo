@@ -1,8 +1,7 @@
 WITH all_reviews AS (
     SELECT
         *
-    FROM
-        AIRBNB.RAW.RAW_REVIEWS
+    from {{source ('airbnb','reviews')}}
 )
 SELECT
     listing_id,
