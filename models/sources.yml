@@ -10,5 +10,8 @@ sources:
       - name: host
         identifier: raw_hosts
 
-      # - name: reviews
-      #   identifier: raw_reviews
+      - name: reviews
+        identifier: raw_reviews
+
+      - name: customer
+        identifier: raw_customer
